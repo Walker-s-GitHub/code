@@ -3,11 +3,11 @@
 #include "LED.h"
 #include "stm32f10x.h"
 
-void Delay_Ms(uint16_t time)  //ÑÓÊ±º¯Êý
+void Delay_Ms(uint16_t time)  //æ¯«ç§’çº§å»¶æ—¶å‡½æ•°
 { 
-	uint16_t i,j;
-	for(i=0;i<time;i++)
-  		for(j=0;j<10260;j++);
+	uint16_t i = 0, j = 0;
+	for(i = 0; i < time; i++)
+  		for(j = 0; j < 10260; j++);
 }
 
 int main(void)
