@@ -76,7 +76,7 @@ extern uint32_t SystemCoreClock;          /*!< System Clock Frequency (Core Cloc
   * @{
   */
   
-extern void SystemInit(void);
+extern void System_Init(void);
 extern void SystemCoreClockUpdate(void);
 /**
   * @}
